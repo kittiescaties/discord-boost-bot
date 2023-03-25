@@ -1,0 +1,14 @@
+{
+    "token": "",
+    "owner": "",
+    "guild_id": "",
+    "capmonster_key": "",
+    "server_nick": ".gg/demonboost",
+    "change_server_nick": true,
+    "proxyless": true,
+    "field_name_invite": "Invite",
+    "order_logs": "",
+    "failed_boosts": "",
+    "boosts_logs": "",
+    "activity": "Boosting Servers"
+}
