@@ -1,3 +1,8 @@
+People be selling this edit shit for $75+ so have it for free
+
+
+
+
 INSTALLATION GUIDE
 
 pip install -U git+https://github.com/Pycord-Development/pycord
