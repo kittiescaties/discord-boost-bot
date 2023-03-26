@@ -1,6 +1,6 @@
 People be selling this edit shit for $75+ so have it for free
 
-
+STAR FOR UPDATES
 
 
 INSTALLATION GUIDE
