@@ -7,7 +7,6 @@ import colorama
 from colorama import Fore, Style
 import discord
 from discord import *
-from keyauth import *
 if os.name == 'nt':
     import ctypes
 
@@ -17,61 +16,7 @@ def cls(): #clears the terminal
     
 config = json.load(open("config.json", encoding="utf-8"))
 
-def getchecksum():
-    md5_hash = hashlib.md5()
-    file = open(''.join(sys.argv), "rb")
-    md5_hash.update(file.read())
-    digest = md5_hash.hexdigest()
-    return digest
-
-
-keyauthapp = api(
-    name = "Demon Boosts",
-    ownerid = "2RFUp4eH52",
-    secret = "7aed053037d0a18c3f2f66111ca16bfa4f82582cda8334e650e83d433ec541cd",
-    version = "1.0",
-    hash_to_check = getchecksum()
-)
 cls()
-
-if keyauthapp.checkblacklist():
-    print(Fore.RED + "You are blacklisted from our system." + Fore.RESET)
-    quit()
-    
-        
-
-def answer():
-    try:
-        print(f"""
-1.Login
-2.Register
-3.Upgrade
-                                                                                                                                           
-        """)
-        ans = input("Select Option: ")
-        if ans == "1":
-            user = input('Username: ')
-            password = input('Password: ')
-            keyauthapp.login(user, password)
-        elif ans == "2":
-            user = input('Username: ')
-            password = input('Password: ')
-            license = input('License: ')
-            keyauthapp.register(user, password, license)
-        elif ans == "3":
-            user = input('Username: ')
-            license = input('License: ')
-            keyauthapp.upgrade(user, license)
-        else:
-            print("\nNot Valid Option")
-            time.sleep(1)
-            os.system('cls')
-            answer()
-    except KeyboardInterrupt:
-        os._exit(1)
-
-
-answer()
 
 
 
