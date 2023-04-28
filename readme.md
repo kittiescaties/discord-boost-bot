@@ -1,11 +1,19 @@
 People be selling this edit shit for $75+ so have it for free
 
+ISUSES
+
+If you are having trouble with the discord bot shit and it gives errors do:
+
+pip uninstall pycord
+pip uninstall discord.py
+pip uninstall discord
+pip install -U git+https://github.com/Pycord-Development/pycord
+
+
 STAR FOR UPDATES
 
 
 INSTALLATION GUIDE
-
-pip install -U git+https://github.com/Pycord-Development/pycord
 
 
 
