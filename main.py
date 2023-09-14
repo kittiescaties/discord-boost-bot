@@ -400,5 +400,5 @@ async def boost(
         os.remove("success.txt")
         os.remove("failed.txt")
     
-#keep_alive()
+keep_alive()
 bot.run(config["token"])
