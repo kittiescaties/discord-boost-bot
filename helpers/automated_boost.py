@@ -247,7 +247,7 @@ def start_sellapp(data):
         pass
 
 def run():
-    app.run(host="0.0.0.0", port="6969", debug=False)
+    app.run(host="0.0.0.0", port=6969, debug=False, use_reloader=False)
      
 def keep_alive():
     t = Thread(target=run)
