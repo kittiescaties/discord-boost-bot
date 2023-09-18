@@ -131,7 +131,7 @@ def start_sellix(data):
             pass
     
     except Exception as e:
-        #sprint(f"{e} | Function: Start_Sellix", False)
+        print(f"{e} | Function: Start_Sellix", False)
         pass
     
 @app.route("/sellapp", methods=["GET", "POST"])
@@ -243,7 +243,7 @@ def start_sellapp(data):
             os.remove("failed.txt")
             
     except Exception as e:
-        #sprint(f"{e} | Function: Start_Sellapp", False)
+        print(f"{e} | Function: Start_Sellapp", False)
         pass
 
 def run():
