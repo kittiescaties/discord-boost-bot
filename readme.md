@@ -5,12 +5,15 @@ ISUSES
 If you are having trouble with the discord bot shit and it gives errors do:
 
 pip uninstall pycord
+
 pip uninstall discord.py
+
 pip uninstall discord
+
 pip install -U git+https://github.com/Pycord-Development/pycord
 
+pip install colorama httpx tls_client flask fade discord_webhook
 
-STAR FOR UPDATES
 
 
 INSTALLATION GUIDE
