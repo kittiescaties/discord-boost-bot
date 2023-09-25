@@ -1,3 +1,8 @@
+UPDATES SOON TO COME:
+Will add support for other solver APIS, Will try and make captchas appear less often.
+
+
+
 People be selling this edit shit for $75+ so have it for free
 
 ISUSES
